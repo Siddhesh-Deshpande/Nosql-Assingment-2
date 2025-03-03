@@ -1,0 +1,8 @@
+download the Wikipeadia dump and extract the tar file into Wikipedia-EN-20120601_ARTICLES folder in Nosql Assingment2
+# clean the folders and and jar files and classes generated previously
+1.rm -r *.class *.jar
+# compile the java code to class files
+2.javac -cp $(hadoop classpath) prob_two.java
+# create the jar file 
+3.jar cvf prob_two.jar *.class
+4.hadoop jar prob_two.jar prob_two ../Wikipedia-EN-20120601_ARTICLES ../output_two

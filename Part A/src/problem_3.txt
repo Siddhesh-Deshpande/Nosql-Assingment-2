@@ -1,0 +1,25 @@
+# for code that produces output of discrepancy (thirdquestionA.java)
+
+# clean the folders and and jar files and classes generated previously
+1.rm -r *.class *.jar
+# compile the java code to class files
+2.javac -cp $(hadoop classpath) thirdquestionpartA.java
+# create the jar file 
+3.jar cvf thirdA.jar *.class
+4.hadoop jar thirdA.jar thirdquestionpartA ../output_two ../output_three_a
+
+# for the correct code (thirdquestionB.java)
+
+# clean the folders and and jar files and classes generated previously
+1.rm -r *.class *.jar
+# compile the java code to class files
+2.javac -cp $(hadoop classpath) thirdquestionpartB.java
+# create the jar file 
+3.jar cvf thirdB.jar *.class
+4.hadoop jar thirdB.jar thirdquestionpartB ../output_two ../output_three_b
+
+# for running the comparision program 
+
+python3 compare.py ../Wikipedia-EN-20120601_ARTICLES <output file of mapreduce>
+
+#output files -> output_three_a/part-r-00000 and output_three_b/part-r-00000
