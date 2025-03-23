@@ -1,0 +1,7 @@
+Kindly Read Instructions.txt present outside this folder before going ahead.
+
+1.Open the terminal in this folder
+2.Run the .sh file for executing specific parts(a,b).
+3.Outputs for part a will be in folder outdf and for part b in folder outtfidf.
+
+Note-For running part b you need output of part a.

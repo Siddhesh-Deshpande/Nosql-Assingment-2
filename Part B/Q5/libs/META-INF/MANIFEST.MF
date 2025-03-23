@@ -1,0 +1,146 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.apache.opennlp.tools
+Bnd-LastModified: 1595603225623
+Build-Jdk: 1.8.0_252
+Built-By: ubuntu
+Bundle-Activator: opennlp.tools.util.ext.OSGiExtensionLoader
+Bundle-Description: The Apache Software Foundation provides support fo
+ r the Apache community of open-source software projects.    The Apach
+ e projects are characterized by a collaborative, consensus based deve
+ lopment process, an open and    pragmatic software license, and a des
+ ire to create high quality software that leads the way in its field. 
+    We consider ourselves not simply a group of projects sharing a ser
+ ver, but rather a community of developers    and users.
+Bundle-DocURL: https://www.apache.org/
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache OpenNLP Tools
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-SymbolicName: org.apache.opennlp.tools
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.9.3
+Created-By: Apache Maven Bundle Plugin
+Export-Package: opennlp.tools.chunker;uses:="opennlp.tools.ml.model,op
+ ennlp.tools.util,opennlp.tools.util.eval,opennlp.tools.util.model";ve
+ rsion="1.9.3",opennlp.tools.dictionary;uses:="opennlp.tools.util,open
+ nlp.tools.util.model";version="1.9.3",opennlp.tools.dictionary.serial
+ izer;uses:="opennlp.tools.util";version="1.9.3",opennlp.tools.doccat;
+ uses:="opennlp.tools.ml.model,opennlp.tools.util,opennlp.tools.util.e
+ val,opennlp.tools.util.model";version="1.9.3",opennlp.tools.entitylin
+ ker;uses:="opennlp.tools.util";version="1.9.3",opennlp.tools.formats;
+ uses:="opennlp.tools.chunker,opennlp.tools.doccat,opennlp.tools.langd
+ etect,opennlp.tools.lemmatizer,opennlp.tools.namefind,opennlp.tools.p
+ arser,opennlp.tools.postag,opennlp.tools.sentdetect,opennlp.tools.tok
+ enize,opennlp.tools.util";version="1.9.3",opennlp.tools.formats.ad;us
+ es:="opennlp.tools.chunker,opennlp.tools.formats,opennlp.tools.namefi
+ nd,opennlp.tools.postag,opennlp.tools.sentdetect,opennlp.tools.tokeni
+ ze,opennlp.tools.util";version="1.9.3",opennlp.tools.formats.brat;use
+ s:="opennlp.tools.formats,opennlp.tools.namefind,opennlp.tools.sentde
+ tect,opennlp.tools.tokenize,opennlp.tools.util";version="1.9.3",openn
+ lp.tools.formats.conllu;uses:="opennlp.tools.formats,opennlp.tools.le
+ mmatizer,opennlp.tools.postag,opennlp.tools.sentdetect,opennlp.tools.
+ tokenize,opennlp.tools.util";version="1.9.3",opennlp.tools.formats.co
+ nvert;uses:="opennlp.tools.formats,opennlp.tools.namefind,opennlp.too
+ ls.parser,opennlp.tools.postag,opennlp.tools.sentdetect,opennlp.tools
+ .tokenize,opennlp.tools.util";version="1.9.3",opennlp.tools.formats.f
+ renchtreebank;uses:="opennlp.tools.formats,opennlp.tools.parser,openn
+ lp.tools.util";version="1.9.3",opennlp.tools.formats.irishsentenceban
+ k;uses:="opennlp.tools.formats,opennlp.tools.sentdetect,opennlp.tools
+ .tokenize,opennlp.tools.util";version="1.9.3",opennlp.tools.formats.l
+ eipzig;uses:="opennlp.tools.formats,opennlp.tools.langdetect,opennlp.
+ tools.util";version="1.9.3",opennlp.tools.formats.letsmt;uses:="openn
+ lp.tools.formats,opennlp.tools.sentdetect,opennlp.tools.tokenize,open
+ nlp.tools.util,org.xml.sax,org.xml.sax.helpers";version="1.9.3",openn
+ lp.tools.formats.moses;uses:="opennlp.tools.formats,opennlp.tools.sen
+ tdetect,opennlp.tools.util";version="1.9.3",opennlp.tools.formats.muc
+ ;uses:="opennlp.tools.formats,opennlp.tools.namefind,opennlp.tools.to
+ kenize,opennlp.tools.util";version="1.9.3",opennlp.tools.formats.nkjp
+ ;uses:="opennlp.tools.formats,opennlp.tools.sentdetect,opennlp.tools.
+ util";version="1.9.3",opennlp.tools.formats.ontonotes;uses:="opennlp.
+ tools.formats,opennlp.tools.formats.brat,opennlp.tools.namefind,openn
+ lp.tools.parser,opennlp.tools.postag,opennlp.tools.util";version="1.9
+ .3",opennlp.tools.langdetect;uses:="opennlp.tools.ml.model,opennlp.to
+ ols.util,opennlp.tools.util.eval,opennlp.tools.util.model,opennlp.too
+ ls.util.normalizer";version="1.9.3",opennlp.tools.languagemodel;uses:
+ ="opennlp.tools.ngram,opennlp.tools.util";version="1.9.3",opennlp.too
+ ls.lemmatizer;uses:="opennlp.tools.ml.model,opennlp.tools.util,opennl
+ p.tools.util.eval,opennlp.tools.util.model";version="1.9.3",opennlp.t
+ ools.ml;uses:="opennlp.tools.ml.model,opennlp.tools.util";version="1.
+ 9.3",opennlp.tools.ml.maxent;uses:="opennlp.tools.ml,opennlp.tools.ml
+ .model,opennlp.tools.util";version="1.9.3",opennlp.tools.ml.maxent.io
+ ;uses:="opennlp.tools.ml.maxent.quasinewton,opennlp.tools.ml.model";v
+ ersion="1.9.3",opennlp.tools.ml.maxent.quasinewton;uses:="opennlp.too
+ ls.ml,opennlp.tools.ml.model,opennlp.tools.util";version="1.9.3",open
+ nlp.tools.ml.model;uses:="opennlp.tools.util";version="1.9.3",opennlp
+ .tools.ml.naivebayes;uses:="opennlp.tools.ml,opennlp.tools.ml.model,o
+ pennlp.tools.util";version="1.9.3",opennlp.tools.ml.perceptron;uses:=
+ "opennlp.tools.ml,opennlp.tools.ml.model,opennlp.tools.util";version=
+ "1.9.3",opennlp.tools.namefind;uses:="opennlp.tools.dictionary,opennl
+ p.tools.ml.model,opennlp.tools.util,opennlp.tools.util.eval,opennlp.t
+ ools.util.featuregen,opennlp.tools.util.model";version="1.9.3",opennl
+ p.tools.ngram;uses:="opennlp.tools.dictionary,opennlp.tools.util";ver
+ sion="1.9.3",opennlp.tools.parser;uses:="opennlp.tools.chunker,opennl
+ p.tools.dictionary,opennlp.tools.ml.model,opennlp.tools.postag,opennl
+ p.tools.util,opennlp.tools.util.eval,opennlp.tools.util.model";versio
+ n="1.9.3",opennlp.tools.parser.chunking;uses:="opennlp.tools.dictiona
+ ry,opennlp.tools.ml.model,opennlp.tools.parser,opennlp.tools.util";ve
+ rsion="1.9.3",opennlp.tools.parser.lang.en;uses:="opennlp.tools.parse
+ r,opennlp.tools.util.model";version="1.9.3",opennlp.tools.parser.lang
+ .es;uses:="opennlp.tools.parser,opennlp.tools.util.model";version="1.
+ 9.3",opennlp.tools.parser.treeinsert;uses:="opennlp.tools.dictionary,
+ opennlp.tools.ml.model,opennlp.tools.parser,opennlp.tools.util";versi
+ on="1.9.3",opennlp.tools.postag;uses:="opennlp.tools.dictionary,openn
+ lp.tools.ml.model,opennlp.tools.util,opennlp.tools.util.eval,opennlp.
+ tools.util.featuregen,opennlp.tools.util.model";version="1.9.3",openn
+ lp.tools.sentdetect;uses:="opennlp.tools.dictionary,opennlp.tools.ml.
+ model,opennlp.tools.sentdetect.lang,opennlp.tools.tokenize,opennlp.to
+ ols.util,opennlp.tools.util.eval,opennlp.tools.util.model";version="1
+ .9.3",opennlp.tools.sentdetect.lang;uses:="opennlp.tools.sentdetect";
+ version="1.9.3",opennlp.tools.sentdetect.lang.th;uses:="opennlp.tools
+ .sentdetect";version="1.9.3",opennlp.tools.stemmer;version="1.9.3",op
+ ennlp.tools.stemmer.snowball;uses:="opennlp.tools.stemmer";version="1
+ .9.3",opennlp.tools.tokenize;uses:="opennlp.tools.dictionary,opennlp.
+ tools.ml.model,opennlp.tools.tokenize.lang,opennlp.tools.util,opennlp
+ .tools.util.eval,opennlp.tools.util.model";version="1.9.3",opennlp.to
+ ols.tokenize.lang;uses:="opennlp.tools.tokenize";version="1.9.3",open
+ nlp.tools.tokenize.lang.en;uses:="opennlp.tools.tokenize";version="1.
+ 9.3",opennlp.tools.util;uses:="javax.xml.parsers,opennlp.tools.ml.mod
+ el,opennlp.tools.util.model";version="1.9.3",opennlp.tools.util.eval;
+ uses:="opennlp.tools.util";version="1.9.3",opennlp.tools.util.ext;use
+ s:="org.osgi.framework";version="1.9.3",opennlp.tools.util.featuregen
+ ;uses:="opennlp.tools.dictionary,opennlp.tools.namefind,opennlp.tools
+ .postag,opennlp.tools.tokenize,opennlp.tools.util,opennlp.tools.util.
+ model,org.w3c.dom";version="1.9.3",opennlp.tools.util.java;version="1
+ .9.3",opennlp.tools.util.model;uses:="opennlp.tools.chunker,opennlp.t
+ ools.dictionary,opennlp.tools.ml.model,opennlp.tools.postag,opennlp.t
+ ools.util";version="1.9.3",opennlp.tools.util.normalizer;version="1.9
+ .3",opennlp.tools.util.wordvector;version="1.9.3"
+Implementation-Title: Apache OpenNLP Tools
+Implementation-URL: https://www.apache.org/opennlp/opennlp-tools/
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: org.apache.opennlp
+Implementation-Version: 1.9.3
+Import-Package: javax.xml.namespace,javax.xml.parsers,javax.xml.transf
+ orm,javax.xml.transform.sax,javax.xml.transform.stream,javax.xml.xpat
+ h,opennlp.tools.chunker,opennlp.tools.dictionary,opennlp.tools.dictio
+ nary.serializer,opennlp.tools.doccat,opennlp.tools.entitylinker,openn
+ lp.tools.langdetect,opennlp.tools.languagemodel,opennlp.tools.lemmati
+ zer,opennlp.tools.ml,opennlp.tools.ml.maxent,opennlp.tools.ml.maxent.
+ io,opennlp.tools.ml.maxent.quasinewton,opennlp.tools.ml.model,opennlp
+ .tools.ml.naivebayes,opennlp.tools.ml.perceptron,opennlp.tools.namefi
+ nd,opennlp.tools.ngram,opennlp.tools.parser.chunking,opennlp.tools.pa
+ rser.lang.en,opennlp.tools.parser.lang.es,opennlp.tools.parser.treein
+ sert,opennlp.tools.postag,opennlp.tools.sentdetect,opennlp.tools.sent
+ detect.lang,opennlp.tools.sentdetect.lang.th,opennlp.tools.stemmer,op
+ ennlp.tools.tokenize.lang,opennlp.tools.util,opennlp.tools.util.eval,
+ opennlp.tools.util.ext,opennlp.tools.util.featuregen,opennlp.tools.ut
+ il.model,opennlp.tools.util.normalizer,org.osgi.framework;version="[1
+ .5,2)";resolution:=optional,org.osgi.util.tracker;version="[1.4,2)";r
+ esolution:=optional,org.w3c.dom,org.xml.sax,org.xml.sax.helpers
+Main-Class: opennlp.tools.cmdline.CLI
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Specification-Title: Apache OpenNLP Tools
+Specification-Vendor: The Apache Software Foundation
+Specification-Version: 1.9.3
+Tool: Bnd-4.2.0.201903051501
+

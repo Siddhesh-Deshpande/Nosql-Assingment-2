@@ -1,0 +1,3 @@
+1.Download the dataset of 10000 Documents and put it in the data folder basically what i mean is just put the downloaded  folder named "Wikipedia-EN-20120601_ARTICLES" inside the data folder .
+2.Copy data folder inside the Q4 and Q5 folders.
+3.Follow the instructions given inside the respective questions Folder.

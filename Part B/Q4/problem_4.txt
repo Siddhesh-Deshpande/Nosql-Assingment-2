@@ -1,0 +1,9 @@
+Kindly Read Instructions.txt present outside this folder before going ahead.
+
+1.Open Terminal inside the scripts folder.
+2.run the respective .sh files for each of the parts(a,b,c,d) to execute the mapreduce jobs.
+3.there are 4 files for part d and one file each for part a,b,c.
+4.Outputs will be stored in the outputs directory.
+
+Note-Kindly Run part a before executing any of the other parts as its output is input for them.
+Note-In the codes for part b,c,d you can change the values for distance variable inside the map function in the respective .java files.
